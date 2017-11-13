@@ -21,7 +21,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "node-sass": "^4.6.1"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
