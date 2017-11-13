@@ -44,6 +44,7 @@
     "css-minify": "cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --level 1 --source-map --source-map-inline-sources --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css",
     "js": "cpx 'node_modules/bootstrap/dist/js/*' dist/js",
     "dist": "npm-run-all --parallel css js",
+    "postdist": "node prepare-gcs.js",
     "test": "npm-run-all dist"
   }
 }
