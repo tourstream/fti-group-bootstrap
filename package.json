@@ -1,0 +1,29 @@
+{
+  "name": "@tourstream/fti-group-bootstrap",
+  "version": "0.0.0",
+  "description": "A customized version of bootstrap for projects of FTI Group",
+  "license": "MIT",
+  "author": "FTI",
+  "contributors": [
+    {
+      "name": "Enrico Hoffmann",
+      "email": "enrico.hoffmann@fti.de"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tourstream/fti-group-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tourstream/fti-group-bootstrap/issues"
+  },
+  "homepage": "https://github.com/tourstream/fti-group-bootstrap#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  }
+}
