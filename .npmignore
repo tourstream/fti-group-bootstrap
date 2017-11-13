@@ -1,6 +1,5 @@
 build/
 dist-*/
-scss/
 .editorconfig
 .idea
 .gitignore
