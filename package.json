@@ -45,6 +45,7 @@
     "js": "cpx 'node_modules/bootstrap/dist/js/*' dist/js",
     "dist": "npm-run-all --parallel css js",
     "postdist": "node prepare-gcs.js",
+    "postversion": "git push && git push --tags",
     "test": "npm-run-all dist"
   }
 }
