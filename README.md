@@ -11,7 +11,7 @@
 
 ## Usage
 
-There are different ways to use this font ...
+There are different ways to use this package ...
 
 ### npm package
 
