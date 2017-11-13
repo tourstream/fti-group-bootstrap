@@ -36,7 +36,7 @@ You can put the following snippet into the head of your HTML document ...
 
 
 ```sh
-<link rel="stylesheet" href="https://assets.gcloud.fti-group.com/fti-group-bootstrap/latest/bootstrap.min.css">
+<link rel="stylesheet" href="https://assets.gcloud.fti-group.com/fti-group-bootstrap/latest/css/bootstrap.min.css">
 ```
 
 
