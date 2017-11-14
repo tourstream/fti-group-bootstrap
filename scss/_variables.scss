@@ -10,12 +10,12 @@
 
 // stylelint-disable
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #f4f4f4; // #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
+$gray-600: #666666; // #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
@@ -38,12 +38,12 @@ $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$red:     #c01d1d;  // #dc3545 !default;
+$orange:  #ff9933;  // #fd7e14 !default;
+$yellow:  #ffc700;  // #ffc107 !default;
+$green:   #96c948;  // #28a745 !default;
 $teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+$cyan:    #0099cc;  // #17a2b8 !default;
 
 $colors: () !default;
 $colors: map-merge((
@@ -156,10 +156,10 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 480px,
   md: 768px,
-  lg: 992px,
-  xl: 1200px
+  lg: 960px,
+  xl: 1280px
 ) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -171,10 +171,10 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
+  sm: 451px + 30px,
+  md: 722px + 30px,
+  lg: 902px + 30px,
+  xl: 1203px + 30px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
