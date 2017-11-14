@@ -35,6 +35,9 @@
     "stylelint-order": "^0.7.0",
     "stylelint-scss": "^2.1.0"
   },
+  "peerDependencies": {
+    "bootstrap": "^4.0.0-beta.2"
+  },
   "scripts": {
     "css": "npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*",
     "css-main": "npm-run-all --parallel css-lint css-compile --sequential css-prefix css-minify",
