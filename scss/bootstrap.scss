@@ -6,13 +6,19 @@
  */
 
 /*
- * customized version for FTI Group projects
- * IMPORTANT: node-sass use an include-path to pick "missing" files from original bootstrap folder
+ * Customized version for FTI Group projects
+ * IMPORTANT: node-sass uses an include-path to pick "missing" files from original bootstrap folder.
  */
 
+// Custom
+@import "custom-variables";
+
+// Bootstrap required
 @import "functions";
 @import "variables";
 @import "mixins";
+
+// Bootstrap optional
 @import "root";
 //@import "print";
 @import "reboot";
